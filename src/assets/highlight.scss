@@ -1,0 +1,221 @@
+@import './common.scss';
+
+
+$navHeight: 60px;
+$footerHeight: 120px;
+$centerWidth: 1200px;
+$asideWidth: 260px;
+$layoutWidth: 1000px;
+$topTitleHeight: 440px;
+$btnWidth: 70px;
+
+// 圆角
+$bigRadius: 20px;
+$midRadius: 12px;
+
+// 间距
+$space: 20px;
+
+// 不变的颜色
+$codeOther: #c9d1d9;
+// 按钮/字体高亮/hover
+$hoverColor: var(--hoverColor, rgb(98, 164, 218));
+
+// ---------黑色-----------
+// 主色
+$themeColor: var(--themeColor, rgb(12, 29, 27));
+// 副色1
+$themeColor1: var(--themeColor1, rgb(22, 54, 51));
+// 副色2
+$themeColor2: var(--themeColor2, rgb(39, 95, 89));
+// 字体色
+$textColor: var(--textColor, rgb(255, 255, 255));
+// 切换开关灰色
+$switchOff: var(--switchOff, rgb(77, 77, 77));
+// placeholder
+$tip: var(--tip, rgb(116, 116, 116));
+// App背景色
+$bodyColor: var(--bodyColor, rgb(0, 0, 0));
+// footer透明背景色
+$footerBg: var(--footerBg, rgba(0, 0, 0, 0.3));
+// 代码块背景
+$codeBg: var(--codeBg, rgb(37, 43, 48));
+// 稍微不明显的字体颜色（版权信息页）
+$textColor2: var(--textColor2, rgb(167, 167, 167));
+// 行内代码
+$inlineCode: var(--inlineCode, rgb(29, 71, 67));
+
+img{
+  width: 100%;
+}
+#hljs {
+  padding: 10px 20px;
+  background-color: $codeBg;
+  border-radius: 20px;
+  overflow: auto;
+}
+p{
+  font-size: 18px;
+  line-height: 105%;
+  margin: 0;
+}
+
+
+  /* // 代码片段 */
+  code {
+    background-color: $codeBg;
+    padding: 3px 8px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'FiraCode', 'dengxian';
+    border-radius: 8px;
+    margin: 0 2px;
+    font-family: dengxian;
+
+  }
+
+  // 代码高亮主题配置
+  .hljs-doctag,
+  .hljs-keyword,
+  .hljs-meta .hljs-keyword,
+  .hljs-template-tag,
+  .hljs-template-variable,
+  .hljs-type,
+  .hljs-variable.language_ {
+    /* prettylights-syntax-keyword */
+    color: #ff7b72;
+  }
+
+  .hljs-title,
+  .hljs-title.class_,
+  .hljs-title.class_.inherited__,
+  .hljs-title.function_ {
+    /* prettylights-syntax-entity */
+    color: #d2a8ff;
+  }
+
+  .hljs-attr,
+  .hljs-attribute,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-operator,
+  .hljs-variable,
+  .hljs-selector-attr,
+  .hljs-selector-class,
+  .hljs-selector-id {
+    /* prettylights-syntax-constant */
+    color: #79c0ff;
+  }
+
+  .hljs-regexp,
+  .hljs-string,
+  .hljs-meta .hljs-string {
+    /* prettylights-syntax-string */
+    color: #a5d6ff;
+  }
+
+  .hljs-built_in,
+  .hljs-symbol {
+    /* prettylights-syntax-variable */
+    color: #ffa657;
+  }
+
+  .hljs-comment,
+  .hljs-code,
+  .hljs-formula {
+    /* prettylights-syntax-comment */
+    color: #8b949e;
+  }
+
+  .hljs-name,
+  .hljs-quote,
+  .hljs-selector-tag,
+  .hljs-selector-pseudo {
+    /* prettylights-syntax-entity-tag */
+    color: #7ee787;
+  }
+
+  .hljs-subst {
+    /* prettylights-syntax-storage-modifier-import */
+    color: #c9d1d9;
+  }
+
+  .hljs-section {
+    /* prettylights-syntax-markup-heading */
+    color: #1f6feb;
+    font-weight: bold;
+  }
+
+  .hljs-bullet {
+    /* prettylights-syntax-markup-list */
+    color: #f2cc60;
+  }
+
+  .hljs-emphasis {
+    /* prettylights-syntax-markup-italic */
+    color: #c9d1d9;
+    font-style: italic;
+  }
+
+  .hljs-strong {
+    /* prettylights-syntax-markup-bold */
+    color: #c9d1d9;
+    font-weight: bold;
+  }
+
+  .hljs-addition {
+    /* prettylights-syntax-markup-inserted */
+    color: #aff5b4;
+    background-color: #033a16;
+  }
+
+  .hljs-deletion {
+    /* prettylights-syntax-markup-deleted */
+    color: #ffdcd7;
+    background-color: #67060c;
+  }
+
+
+// /* 滚动条 */
+// ::-webkit-scrollbar {
+//   height: 12px;
+// }
+// /* 滚动槽 */
+// ::-webkit-scrollbar-track {
+//   background-color: rgba(0, 0, 0, 0);
+// }
+// /* 滚动条滑块 */
+// ::-webkit-scrollbar-thumb {
+//   background-color: $themeColor2;
+//   border-bottom-left-radius: 12px;
+//   border-bottom-right-radius: 12px;
+// }
+
+@media screen and (max-width: 500px) {
+  .article-content{
+    #hljs {
+      padding: 0.5rem !important;
+      border-radius: 0.5rem !important;
+  
+    }
+    h1{
+      font-size: 0.8rem !important;
+    }
+    h2{
+      font-size: 0.6rem !important;
+    }
+    p{
+      font-size: 0.4rem !important;
+      img{
+        width: 100%;
+      }
+    }
+  
+      /* // 代码片段 */
+      code {
+        font-size: 0.35rem !important; 
+      }
+  }
+  
+}
