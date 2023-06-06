@@ -24,8 +24,8 @@ dependencies:
     specifier: ^2.0.2
     version: 2.0.2
   markdown-it-navbar:
-    specifier: ^0.2.3
-    version: registry.npmmirror.com/markdown-it-navbar@0.2.3(sass@1.62.1)(typescript@5.0.4)(vue@3.3.4)
+    specifier: ^0.2.4
+    version: registry.npmmirror.com/markdown-it-navbar@0.2.4(sass@1.62.1)(typescript@5.1.3)(vue@3.3.4)
   postcss-scss:
     specifier: ^4.0.6
     version: 4.0.6(postcss@8.4.24)
@@ -34,7 +34,7 @@ dependencies:
     version: 1.62.1
   sass-loader:
     specifier: ^13.3.1
-    version: 13.3.1(sass@1.62.1)(webpack@5.85.0)
+    version: 13.3.1(sass@1.62.1)(webpack@5.85.1)
   transliteration:
     specifier: ^2.3.5
     version: 2.3.5
@@ -6372,7 +6372,7 @@ packages:
       truncate-utf8-bytes: 1.0.2
     dev: true
 
-  /sass-loader@13.3.1(sass@1.62.1)(webpack@5.85.0):
+  /sass-loader@13.3.1(sass@1.62.1)(webpack@5.85.1):
     resolution: {integrity: sha512-cBTxmgyVA1nXPvIK4brjJMXOMJ2v2YrQEuHqLw3LylGb3gsR6jAvdjHMcy/+JGTmmIF9SauTrLLR7bsWDMWqgg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -6394,7 +6394,7 @@ packages:
       klona: 2.0.6
       neo-async: 2.6.2
       sass: 1.62.1
-      webpack: registry.npmmirror.com/webpack@5.85.0
+      webpack: registry.npmmirror.com/webpack@5.85.1
 
   /sass@1.62.1:
     resolution: {integrity: sha512-NHpxIzN29MXvWiuswfc1W3I0N8SXBd8UR26WntmDlRYf0bSADnwnOjsyMZ3lMezSlArD33Vs3YFhp7dWvL770A==}
@@ -8541,7 +8541,7 @@ packages:
       muggle-string: registry.npmmirror.com/muggle-string@0.2.2
     dev: false
 
-  registry.npmmirror.com/@volar/typescript@1.4.1-patch.2(typescript@5.0.4):
+  registry.npmmirror.com/@volar/typescript@1.4.1-patch.2(typescript@5.1.3):
     resolution: {integrity: sha512-lPFYaGt8OdMEzNGJJChF40uYqMO4Z/7Q9fHPQC/NRVtht43KotSXLrkPandVVMf9aPbiJ059eAT+fwHGX16k4w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@volar/typescript/-/typescript-1.4.1-patch.2.tgz}
     id: registry.npmmirror.com/@volar/typescript/1.4.1-patch.2
     name: '@volar/typescript'
@@ -8550,7 +8550,7 @@ packages:
       typescript: '*'
     dependencies:
       '@volar/language-core': registry.npmmirror.com/@volar/language-core@1.4.1
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: registry.npmmirror.com/typescript@5.1.3
     dev: false
 
   registry.npmmirror.com/@volar/vue-language-core@1.6.5:
@@ -8569,7 +8569,7 @@ packages:
       vue-template-compiler: registry.npmmirror.com/vue-template-compiler@2.7.14
     dev: false
 
-  registry.npmmirror.com/@volar/vue-typescript@1.6.5(typescript@5.0.4):
+  registry.npmmirror.com/@volar/vue-typescript@1.6.5(typescript@5.1.3):
     resolution: {integrity: sha512-er9rVClS4PHztMUmtPMDTl+7c7JyrxweKSAEe/o/Noeq2bQx6v3/jZHVHBe8ZNUti5ubJL/+Tg8L3bzmlalV8A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@volar/vue-typescript/-/vue-typescript-1.6.5.tgz}
     id: registry.npmmirror.com/@volar/vue-typescript/1.6.5
     name: '@volar/vue-typescript'
@@ -8577,9 +8577,9 @@ packages:
     peerDependencies:
       typescript: '*'
     dependencies:
-      '@volar/typescript': registry.npmmirror.com/@volar/typescript@1.4.1-patch.2(typescript@5.0.4)
+      '@volar/typescript': registry.npmmirror.com/@volar/typescript@1.4.1-patch.2(typescript@5.1.3)
       '@volar/vue-language-core': registry.npmmirror.com/@volar/vue-language-core@1.6.5
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: registry.npmmirror.com/typescript@5.1.3
     dev: false
 
   registry.npmmirror.com/@vue/cli-overlay@5.0.8:
@@ -8668,7 +8668,7 @@ packages:
       clipboardy: registry.npmmirror.com/clipboardy@2.3.0
       cliui: registry.npmmirror.com/cliui@7.0.4
       copy-webpack-plugin: registry.npmmirror.com/copy-webpack-plugin@9.1.0(webpack@5.85.0)
-      css-loader: registry.npmmirror.com/css-loader@6.8.1(webpack@5.85.0)
+      css-loader: registry.npmmirror.com/css-loader@6.8.1(webpack@5.85.1)
       css-minimizer-webpack-plugin: registry.npmmirror.com/css-minimizer-webpack-plugin@3.4.1(webpack@5.85.0)
       cssnano: registry.npmmirror.com/cssnano@5.1.15(postcss@8.4.24)
       debug: registry.npmmirror.com/debug@4.3.4
@@ -8690,7 +8690,7 @@ packages:
       postcss: registry.npmmirror.com/postcss@8.4.24
       postcss-loader: registry.npmmirror.com/postcss-loader@6.2.1(postcss@8.4.24)(webpack@5.85.0)
       progress-webpack-plugin: registry.npmmirror.com/progress-webpack-plugin@1.0.16(webpack@5.85.0)
-      sass-loader: 13.3.1(sass@1.62.1)(webpack@5.85.0)
+      sass-loader: 13.3.1(sass@1.62.1)(webpack@5.85.1)
       ssri: registry.npmmirror.com/ssri@8.0.1
       terser-webpack-plugin: registry.npmmirror.com/terser-webpack-plugin@5.3.9(webpack@5.85.0)
       thread-loader: registry.npmmirror.com/thread-loader@3.0.4(webpack@5.85.0)
@@ -10291,7 +10291,7 @@ packages:
       postcss: registry.npmmirror.com/postcss@8.4.24
     dev: true
 
-  registry.npmmirror.com/css-loader@6.8.1(webpack@5.85.0):
+  registry.npmmirror.com/css-loader@6.8.1(webpack@5.85.1):
     resolution: {integrity: sha512-xDAXtEVGlD0gJ07iclwWVkLoZOpEvAWaSyf6W18S2pOC//K8+qUDIx8IIT3D+HjnmkJPQeesOPv5aiUaJsCM2g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/css-loader/-/css-loader-6.8.1.tgz}
     id: registry.npmmirror.com/css-loader/6.8.1
     name: css-loader
@@ -10308,7 +10308,7 @@ packages:
       postcss-modules-values: registry.npmmirror.com/postcss-modules-values@4.0.0(postcss@8.4.24)
       postcss-value-parser: registry.npmmirror.com/postcss-value-parser@4.2.0
       semver: registry.npmmirror.com/semver@7.5.1
-      webpack: registry.npmmirror.com/webpack@5.85.0
+      webpack: registry.npmmirror.com/webpack@5.85.1
     dev: true
 
   registry.npmmirror.com/css-minimizer-webpack-plugin@3.4.1(webpack@5.85.0):
@@ -12410,11 +12410,11 @@ packages:
     dependencies:
       '@jridgewell/sourcemap-codec': registry.npmmirror.com/@jridgewell/sourcemap-codec@1.4.15
 
-  registry.npmmirror.com/markdown-it-navbar@0.2.3(sass@1.62.1)(typescript@5.0.4)(vue@3.3.4):
-    resolution: {integrity: sha512-QEQJ5e0gukQrkrv5C/arz9KJReDCFFyuGtKkNyvsWiZan+olvSphTwIyAyGeVio8Km1IM5GmDbnYWUoy3B88oA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/markdown-it-navbar/-/markdown-it-navbar-0.2.3.tgz}
-    id: registry.npmmirror.com/markdown-it-navbar/0.2.3
+  registry.npmmirror.com/markdown-it-navbar@0.2.4(sass@1.62.1)(typescript@5.1.3)(vue@3.3.4):
+    resolution: {integrity: sha512-BsxAAewKSDlAKWzorxuk86XuRREdKs6ZpL2m59GgAhFt4dK81ZsOZjRyr1V4+KpRNREGFT102zxH+yJ6j9KxrA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/markdown-it-navbar/-/markdown-it-navbar-0.2.4.tgz}
+    id: registry.npmmirror.com/markdown-it-navbar/0.2.4
     name: markdown-it-navbar
-    version: 0.2.3
+    version: 0.2.4
     dependencies:
       '@types/lodash': registry.npmmirror.com/@types/lodash@4.14.195
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it@12.2.3
@@ -12423,7 +12423,7 @@ packages:
       markdown-it: registry.npmmirror.com/markdown-it@13.0.1
       transliteration: registry.npmmirror.com/transliteration@2.3.5
       vite: registry.npmmirror.com/vite@3.2.7(sass@1.62.1)
-      vue-tsc: registry.npmmirror.com/vue-tsc@1.6.5(typescript@5.0.4)
+      vue-tsc: registry.npmmirror.com/vue-tsc@1.6.5(typescript@5.1.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -14536,6 +14536,33 @@ packages:
       serialize-javascript: registry.npmmirror.com/serialize-javascript@6.0.1
       terser: registry.npmmirror.com/terser@5.17.6
       webpack: registry.npmmirror.com/webpack@5.85.0
+    dev: true
+
+  registry.npmmirror.com/terser-webpack-plugin@5.3.9(webpack@5.85.1):
+    resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/terser-webpack-plugin/-/terser-webpack-plugin-5.3.9.tgz}
+    id: registry.npmmirror.com/terser-webpack-plugin/5.3.9
+    name: terser-webpack-plugin
+    version: 5.3.9
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      '@swc/core': '*'
+      esbuild: '*'
+      uglify-js: '*'
+      webpack: ^5.1.0
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      esbuild:
+        optional: true
+      uglify-js:
+        optional: true
+    dependencies:
+      '@jridgewell/trace-mapping': registry.npmmirror.com/@jridgewell/trace-mapping@0.3.18
+      jest-worker: registry.npmmirror.com/jest-worker@27.5.1
+      schema-utils: registry.npmmirror.com/schema-utils@3.1.2
+      serialize-javascript: registry.npmmirror.com/serialize-javascript@6.0.1
+      terser: registry.npmmirror.com/terser@5.17.6
+      webpack: registry.npmmirror.com/webpack@5.85.1
 
   registry.npmmirror.com/terser@5.17.6:
     resolution: {integrity: sha512-V8QHcs8YuyLkLHsJO5ucyff1ykrLVsR4dNnS//L5Y3NiSXpbK1J+WMVUs67eI0KTxs9JtHhgEQpXQVHlHI92DQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/terser/-/terser-5.17.6.tgz}
@@ -14688,11 +14715,11 @@ packages:
       mime-types: registry.npmmirror.com/mime-types@2.1.35
     dev: true
 
-  registry.npmmirror.com/typescript@5.0.4:
-    resolution: {integrity: sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-5.0.4.tgz}
+  registry.npmmirror.com/typescript@5.1.3:
+    resolution: {integrity: sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-5.1.3.tgz}
     name: typescript
-    version: 5.0.4
-    engines: {node: '>=12.20'}
+    version: 5.1.3
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: false
 
@@ -14881,7 +14908,7 @@ packages:
         optional: true
     dependencies:
       '@vue/component-compiler-utils': registry.npmmirror.com/@vue/component-compiler-utils@3.3.0
-      css-loader: registry.npmmirror.com/css-loader@6.8.1(webpack@5.85.0)
+      css-loader: registry.npmmirror.com/css-loader@6.8.1(webpack@5.85.1)
       hash-sum: registry.npmmirror.com/hash-sum@1.0.2
       loader-utils: registry.npmmirror.com/loader-utils@1.4.2
       vue-hot-reload-api: registry.npmmirror.com/vue-hot-reload-api@2.3.4
@@ -15001,7 +15028,7 @@ packages:
     version: 1.9.1
     dev: true
 
-  registry.npmmirror.com/vue-tsc@1.6.5(typescript@5.0.4):
+  registry.npmmirror.com/vue-tsc@1.6.5(typescript@5.1.3):
     resolution: {integrity: sha512-Wtw3J7CC+JM2OR56huRd5iKlvFWpvDiU+fO1+rqyu4V2nMTotShz4zbOZpW5g9fUOcjnyZYfBo5q5q+D/q27JA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-tsc/-/vue-tsc-1.6.5.tgz}
     id: registry.npmmirror.com/vue-tsc/1.6.5
     name: vue-tsc
@@ -15011,9 +15038,9 @@ packages:
       typescript: '*'
     dependencies:
       '@volar/vue-language-core': registry.npmmirror.com/@volar/vue-language-core@1.6.5
-      '@volar/vue-typescript': registry.npmmirror.com/@volar/vue-typescript@1.6.5(typescript@5.0.4)
+      '@volar/vue-typescript': registry.npmmirror.com/@volar/vue-typescript@1.6.5(typescript@5.1.3)
       semver: registry.npmmirror.com/semver@7.5.1
-      typescript: registry.npmmirror.com/typescript@5.0.4
+      typescript: registry.npmmirror.com/typescript@5.1.3
     dev: false
 
   registry.npmmirror.com/vue@3.3.4:
@@ -15229,6 +15256,48 @@ packages:
       schema-utils: registry.npmmirror.com/schema-utils@3.1.2
       tapable: registry.npmmirror.com/tapable@2.2.1
       terser-webpack-plugin: registry.npmmirror.com/terser-webpack-plugin@5.3.9(webpack@5.85.0)
+      watchpack: registry.npmmirror.com/watchpack@2.4.0
+      webpack-sources: registry.npmmirror.com/webpack-sources@3.2.3
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
+    dev: true
+
+  registry.npmmirror.com/webpack@5.85.1:
+    resolution: {integrity: sha512-xTb7MRf4LY8Z5rzn7aIx4TDrwYJrjcHnIfU1TqtyZOoObyuGSpAUwIvVuqq5wPnv7WEgQr8UvO1q/dgoGG4HjA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/webpack/-/webpack-5.85.1.tgz}
+    name: webpack
+    version: 5.85.1
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    peerDependencies:
+      webpack-cli: '*'
+    peerDependenciesMeta:
+      webpack-cli:
+        optional: true
+    dependencies:
+      '@types/eslint-scope': registry.npmmirror.com/@types/eslint-scope@3.7.4
+      '@types/estree': registry.npmmirror.com/@types/estree@1.0.1
+      '@webassemblyjs/ast': registry.npmmirror.com/@webassemblyjs/ast@1.11.6
+      '@webassemblyjs/wasm-edit': registry.npmmirror.com/@webassemblyjs/wasm-edit@1.11.6
+      '@webassemblyjs/wasm-parser': registry.npmmirror.com/@webassemblyjs/wasm-parser@1.11.6
+      acorn: registry.npmmirror.com/acorn@8.8.2
+      acorn-import-assertions: registry.npmmirror.com/acorn-import-assertions@1.9.0(acorn@8.8.2)
+      browserslist: registry.npmmirror.com/browserslist@4.21.7
+      chrome-trace-event: registry.npmmirror.com/chrome-trace-event@1.0.3
+      enhanced-resolve: registry.npmmirror.com/enhanced-resolve@5.14.1
+      es-module-lexer: registry.npmmirror.com/es-module-lexer@1.2.1
+      eslint-scope: registry.npmmirror.com/eslint-scope@5.1.1
+      events: registry.npmmirror.com/events@3.3.0
+      glob-to-regexp: registry.npmmirror.com/glob-to-regexp@0.4.1
+      graceful-fs: registry.npmmirror.com/graceful-fs@4.2.11
+      json-parse-even-better-errors: registry.npmmirror.com/json-parse-even-better-errors@2.3.1
+      loader-runner: registry.npmmirror.com/loader-runner@4.3.0
+      mime-types: registry.npmmirror.com/mime-types@2.1.35
+      neo-async: registry.npmmirror.com/neo-async@2.6.2
+      schema-utils: registry.npmmirror.com/schema-utils@3.1.2
+      tapable: registry.npmmirror.com/tapable@2.2.1
+      terser-webpack-plugin: registry.npmmirror.com/terser-webpack-plugin@5.3.9(webpack@5.85.1)
       watchpack: registry.npmmirror.com/watchpack@2.4.0
       webpack-sources: registry.npmmirror.com/webpack-sources@3.2.3
     transitivePeerDependencies:

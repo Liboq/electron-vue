@@ -16,7 +16,6 @@ function markdownHighlight(str, lang) {
   return "";
 }
 export const transTextToMd = (value) => {
-  console.log(value);
   const mdIt = MarkdownIt({
     typographer: false, // https://markdown-it.github.io/markdown-it/#MarkdownIt
     highlight: markdownHighlight,

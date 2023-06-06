@@ -19,7 +19,6 @@ export const markdown = {
   name: "markdown",
   method: (el, binding, vnode) => {
     const { value } = binding;
-    console.log(value);
     const mdIt = MarkdownIt({
       typographer: false, // https://markdown-it.github.io/markdown-it/#MarkdownIt
       highlight: markdownHighlight,
