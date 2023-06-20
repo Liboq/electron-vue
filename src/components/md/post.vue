@@ -25,10 +25,13 @@ const writeMd = (e) => {
 
 <style lang="scss">
 .post {
-  height: 80vh;
+  height: 100%;
   flex: 1;
   padding: 5px;
-  overflow: auto;
+  white-space: normal;
+  max-width: 738px;
+  word-wrap: break-word;
+  overflow-y: auto;
   /* 宽度 */
   &::-webkit-scrollbar {
     cursor: pointer;
@@ -44,9 +47,9 @@ const writeMd = (e) => {
   &::-webkit-scrollbar-thumb {
     background-color: #888;
     cursor: pointer !important;
-    &:hover{
-        cursor: pointer;
-        background-color: #ccc;
+    &:hover {
+      cursor: pointer;
+      background-color: #ccc;
     }
   }
 

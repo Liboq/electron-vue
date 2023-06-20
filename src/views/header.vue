@@ -24,7 +24,7 @@ const closeApp = () => {
 </script>
 
 <style lang="scss" scoped>
-$header-height:30px;
+$header-height:5vh;
 .header-container {
   height: $header-height;
   display: flex;

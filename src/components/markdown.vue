@@ -1,7 +1,13 @@
 <template>
   <div class="markdown-container">
+    <div class="flex1">
+    <div>markdown 编辑区</div>
     <Post @send-post-text="getText"></Post>
+    </div>
+    <div class="flex1">
+    <div>预览区</div>
     <View :text="postContent"></View>
+    </div>
   </div>
 </template>
 
@@ -26,6 +32,11 @@ const getText = (text)=>{
 .markdown-container {
   display: flex;
   
- 
+ .flex1{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+ }
 }
 </style>

@@ -31,11 +31,13 @@ const props = defineProps({
   }
 }
 .view {
-  height: 80vh;
   padding: 5px;
   flex: 1;
-  display: flex;
-  overflow: auto;
+  max-width: 738px;
+  overflow-y: auto;
+  white-space:normal;
+  word-wrap: break-word;
+  background-color: #f4f7f9;
   &::-webkit-scrollbar {
     cursor: pointer;
     width: 8px;

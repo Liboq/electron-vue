@@ -2,7 +2,7 @@
   <div class="layout-content">
     <Header></Header>
     <div class="flex-box"><Menu></Menu><Content></Content> </div>
-    
+    <Footer></Footer>
   </div>
 </template>
 
@@ -10,6 +10,7 @@
 import Content from "./content.vue";
 import Header from "./header.vue";
 import Menu from "./menu.vue";
+import Footer from "./footer.vue";
 </script>
 
 <style lang="scss" scoped>
@@ -19,6 +20,7 @@ import Menu from "./menu.vue";
   height: 100%;
   .flex-box {
     display: flex;
+    height: 80vh;
   }
 }
 </style>

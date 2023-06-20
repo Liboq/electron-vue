@@ -39,7 +39,7 @@ $bodyColor: var(--bodyColor, rgb(0, 0, 0));
 // footer透明背景色
 $footerBg: var(--footerBg, rgba(0, 0, 0, 0.3));
 // 代码块背景
-$codeBg: var(--codeBg, rgb(37, 43, 48));
+$codeBg: var(--codeBg, rgb(209, 208, 208));
 // 稍微不明显的字体颜色（版权信息页）
 $textColor2: var(--textColor2, rgb(167, 167, 167));
 // 行内代码
@@ -49,7 +49,7 @@ img{
   width: 100%;
 }
 #hljs {
-  padding: 10px 20px;
+  padding: 5px 10px;
   background-color: $codeBg;
   border-radius: 20px;
   overflow: auto;
@@ -64,7 +64,7 @@ p{
   /* // 代码片段 */
   code {
     background-color: $codeBg;
-    padding: 3px 8px;
+    padding: 3px;
     font-size: 16px;
     color: #fff;
     font-family: 'FiraCode', 'dengxian';

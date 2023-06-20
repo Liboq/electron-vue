@@ -19,8 +19,9 @@ const menu = [
 
 <style lang="scss" scoped>
 .menu-container{
-  height: 100%;
-  padding: 2rem 40px 0 5px;
+  margin-top: 20px;
+  padding: 2rem 20px 0 5px;
+  border-right: 1px solid #ddd;
   .title{
     font-size: 14px;
   }
