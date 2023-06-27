@@ -7,8 +7,13 @@
     <button @click="setting">保存</button>
     <button @click="cancel">取消</button>
     </div>
-   
-
+    <o-button size=""    ></o-button>
+    <o-button></o-button>
+    <o-button type=" "></o-button>
+    <a-button ></a-button>
+   <o-button ></o-button>
+   <a-button size=""></a-button>
+   <o-button-group type="default" ></o-button-group>
   </Dialog>
 </template>
 
